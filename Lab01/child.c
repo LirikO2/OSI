@@ -45,10 +45,10 @@ int main(int argc, char *argv[]) {
         }
         
         // Выводим результат
-        if (count > 0) {
-            printf("Сумма: %.2f (из %d чисел)\n", sum, count);
+        if (count == 3) {
+            printf("Сумма: %.2f\n", sum);
         } else {
-            printf("Не найдено чисел в строке\n");
+            printf("Должно быть 3 числа\n");
         }
         
         // Сбрасываем буфер вывода
